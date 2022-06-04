@@ -4,8 +4,8 @@ $(window).load(function () {
     "use strict";
     // makes sure the whole site is loaded
     $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(10).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(10).css({
+    $('#preloader').delay(0).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('body').delay(0).css({
         'overflow': 'visible'
     });
 })
